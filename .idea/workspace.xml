@@ -8,6 +8,7 @@
       <change afterPath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Dao/IUsuarioJuezDao.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Entity/DeportistaEquipo.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Entity/Equipo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Entity/Pais.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Entity/UsuarioJuez.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Services/EquipoServiceImpl.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Services/IEquipoService.java" afterDir="false" />
@@ -22,7 +23,7 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Dao/IUsuarioDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Dao/IUsuarioDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Dao/IUsuarioDelegadoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Dao/IUsuarioDelegadoDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Dao/IUsuarioDeportistaDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Dao/IUsuarioDeportistaDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Entity/PerfilesUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Entity/Pais.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Entity/PerfilesUsuario.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Entity/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Entity/Usuario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Entity/UsuarioDelegado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Entity/UsuarioDelegado.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Entity/UsuarioDeportista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Entity/UsuarioDeportista.java" afterDir="false" />
@@ -173,7 +174,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="991" />
     <option name="height" value="688" />
@@ -372,7 +373,7 @@
       <workItem from="1558727446925" duration="10535000" />
       <workItem from="1558749396332" duration="1380000" />
       <workItem from="1559192677709" duration="697000" />
-      <workItem from="1559258562752" duration="33120000" />
+      <workItem from="1559258562752" duration="33660000" />
     </task>
     <servers />
   </component>
@@ -403,7 +404,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111837000" />
+    <option name="totallyTimeSpent" value="112377000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -415,7 +416,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.85470086" visible="true" weight="0.23600605" />
       <window_info id="Structure" order="1" sideWeight="0.14529915" side_tool="true" weight="0.21860817" />
