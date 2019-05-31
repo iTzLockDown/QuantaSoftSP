@@ -1,6 +1,7 @@
 package com.QuantaSoftSP.app.Services;
 
 import com.QuantaSoftSP.app.Dao.IUsuarioDelegadoDao;
+import com.QuantaSoftSP.app.Entity.Deporte;
 import com.QuantaSoftSP.app.Entity.Usuario;
 import com.QuantaSoftSP.app.Entity.UsuarioDelegado;
 
@@ -35,8 +36,16 @@ public class UsuarioDelegadoServiceImpl implements IUsuarioDelegadoService{
     public void delete(Long id) {
     	usuarioDelegadoDao.deleteById(id);
     }
-   /* public List<Usuario> findAllUser()
-    {
-        return usuarioDelegadoDao.findAllUser();
-    }*/
+
+    @Override
+    @Transactional(readOnly = true)
+    public List<Deporte> findAllDeporteUsuarioJuez() {
+        return usuarioDelegadoDao.findAllDeporteUsuariDel();
+    }
+
+    @Override
+    @Transactional(readOnly = true)
+    public Usuario findUserUsuarioJuez(Long id) {
+        return usuarioDelegadoDao.findUserUsuarioDel(id);
+    }
 }

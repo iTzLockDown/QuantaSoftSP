@@ -2,6 +2,8 @@ package com.QuantaSoftSP.app.Controller;
 
 import java.util.List;
 
+import com.QuantaSoftSP.app.Entity.Deporte;
+import com.QuantaSoftSP.app.Entity.Usuario;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -50,16 +52,13 @@ public class UsuarioDeportistaRestController {
 	public UsuarioDeportista update(@RequestBody UsuarioDeportista usuarioDeportista, @PathVariable Long id)
 	{
 		UsuarioDeportista usuarioDeportistaActual = usuarioDeportistaService.findById(id);
-		
-		usuarioDeportistaActual.setPais(usuarioDeportista.getPais());
-		usuarioDeportistaActual.setDeporte(usuarioDeportista.getDeporte());
+
 		usuarioDeportistaActual.setAltura(usuarioDeportista.getAltura());
 		usuarioDeportistaActual.setPeso(usuarioDeportista.getPeso());
 		usuarioDeportistaActual.setObservacion(usuarioDeportista.getObservacion());
-		usuarioDeportistaActual.setIdUser(usuarioDeportista.getIdUser());
 		usuarioDeportistaActual.setEstActivo(usuarioDeportista.getEstActivo());
-		usuarioDeportistaActual.setFechaNac(usuarioDeportista.getFechaNac());
-
+		usuarioDeportistaActual.setDeporte(usuarioDeportista.getDeporte());
+		usuarioDeportistaActual.setUserDepUsuario(usuarioDeportista.getUserDepUsuario());
 
 		return usuarioDeportistaService.save(usuarioDeportistaActual);
 	}
@@ -71,4 +70,15 @@ public class UsuarioDeportistaRestController {
 		usuarioDeportistaService.delete(id);
 	}
 
+	@GetMapping("/usuarioDeportista/deporte")
+	public List<Deporte> listarPaisUsuario()
+	{
+		return usuarioDeportistaService.findAllDeporteUsuarioDepor();
+	}
+
+	@GetMapping("/usuarioDeportista/user/{id}")
+	public Usuario mostrarUsuario(@PathVariable Long id)
+	{
+		return usuarioDeportistaService.findUserUsuarioDepor(id);
+	}
 }

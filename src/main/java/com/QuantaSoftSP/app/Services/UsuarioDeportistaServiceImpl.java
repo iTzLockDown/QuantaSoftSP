@@ -2,6 +2,8 @@ package com.QuantaSoftSP.app.Services;
 
 import java.util.List;
 
+import com.QuantaSoftSP.app.Entity.Deporte;
+import com.QuantaSoftSP.app.Entity.Usuario;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -34,6 +36,19 @@ public class UsuarioDeportistaServiceImpl implements IUsuarioDeportistaService {
 	@Override
 	public void delete(Long id) {
 		usuarioDeportistaDao.deleteById(id);
-		
+	}
+
+	@Override
+	@Transactional(readOnly = true)
+	public  List<Deporte> findAllDeporteUsuarioDepor()
+	{
+		return usuarioDeportistaDao.findAllDeporteUsuarioDepor();
+	}
+
+	@Override
+	@Transactional(readOnly = true)
+	public Usuario findUserUsuarioDepor(Long id)
+	{
+		return usuarioDeportistaDao.findUserUsuarioDepor(id);
 	}
 }

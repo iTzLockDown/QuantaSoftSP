@@ -2,18 +2,17 @@ package com.QuantaSoftSP.app.Dao;
 
 import com.QuantaSoftSP.app.Entity.Deporte;
 import com.QuantaSoftSP.app.Entity.Usuario;
+import com.QuantaSoftSP.app.Entity.UsuarioJuez;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 
-import com.QuantaSoftSP.app.Entity.UsuarioDelegado;
-
 import java.util.List;
 
-public interface IUsuarioDelegadoDao extends CrudRepository<UsuarioDelegado, Long>{
+public interface IUsuarioJuezDao extends CrudRepository<UsuarioJuez, Long> {
 
     @Query("from Deporte")
-    public List<Deporte> findAllDeporteUsuariDel();
+    public List<Deporte> findAllDeporteUsuarioJuez();
 
     @Query("select u from Usuario u where u.id= :id ")
-    public Usuario findUserUsuarioDel(Long id);
+    public Usuario findUserUsuarioJuez(Long id);
 }

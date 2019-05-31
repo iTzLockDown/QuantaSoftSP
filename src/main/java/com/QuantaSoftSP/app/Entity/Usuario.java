@@ -80,11 +80,11 @@ public class Usuario implements Serializable{
 	@Temporal(TemporalType.DATE)
 	private Date fechaReg;
 
-	@NotNull(message = "El perfil no puede ser vacia.")
+	@NotNull(message = "El pais no puede estar vacio.")
 	@ManyToOne(fetch = FetchType.LAZY)
-	@JoinColumn(name = "perfil_id")
+	@JoinColumn(name = "pais_id")
 	@JsonIgnoreProperties({"hibernateLazyInitializer","handler"})
-	private PerfilesUsuario perfilUsuario;
+	private Pais paisUser;
 
 	public long getId() {
 		return id;
@@ -158,14 +158,6 @@ public class Usuario implements Serializable{
 		this.email = email;
 	}
 
-	public Date getFechaNac() {
-		return fechaNac;
-	}
-
-	public void setFechaNac(Date fechaNac) {
-		this.fechaNac = fechaNac;
-	}
-
 	public String getPassword() {
 		return password;
 	}
@@ -182,6 +174,14 @@ public class Usuario implements Serializable{
 		this.estActivo = estActivo;
 	}
 
+	public Date getFechaNac() {
+		return fechaNac;
+	}
+
+	public void setFechaNac(Date fechaNac) {
+		this.fechaNac = fechaNac;
+	}
+
 	public Date getFechaReg() {
 		return fechaReg;
 	}
@@ -190,11 +190,12 @@ public class Usuario implements Serializable{
 		this.fechaReg = fechaReg;
 	}
 
-	public PerfilesUsuario getPerfilUsuario() {
-		return perfilUsuario;
+	public Pais getPaisUser() {
+		return paisUser;
 	}
 
-	public void setPerfilUsuario(PerfilesUsuario perfilUsuario) {
-		this.perfilUsuario = perfilUsuario;
+	public void setPaisUser(Pais paisUser) {
+		this.paisUser = paisUser;
 	}
+
 }
