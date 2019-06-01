@@ -2,59 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03246169-64d4-4f13-8ef7-4643f6f72956" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Controller/EquipoRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Controller/UsuarioJuezRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Dao/IEquipoDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Dao/IUsuarioJuezDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Entity/DeportistaEquipo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Entity/Equipo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Entity/Pais.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Entity/UsuarioJuez.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Services/EquipoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Services/IEquipoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Services/IUsuarioJuezService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Services/UsuarioJuezServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Controller/PublicidadRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Dao/IPublicidadDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Entity/FixDepParticipantes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Entity/FixEquipParticipante.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Entity/FixtureDeportista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Entity/FixtureEquipo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Entity/Publicidad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Services/IPublicidadService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Services/PublicidadServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Controller/UsuarioDelegadoRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Controller/UsuarioDelegadoRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Controller/UsuarioDeportistaRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Controller/UsuarioDeportistaRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Controller/UsuarioRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Controller/UsuarioRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Dao/IPerfilUsuarioDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Dao/IUsuarioDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Dao/IUsuarioDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Dao/IUsuarioDelegadoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Dao/IUsuarioDelegadoDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Dao/IUsuarioDeportistaDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Dao/IUsuarioDeportistaDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Entity/PerfilesUsuario.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Entity/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Entity/Usuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Entity/UsuarioDelegado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Entity/UsuarioDelegado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Entity/UsuarioDeportista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Entity/UsuarioDeportista.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Services/IPerfilUsuarioService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Services/IUsuarioDelegadoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Services/IUsuarioDelegadoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Services/IUsuarioDeportistaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Services/IUsuarioDeportistaService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Services/IUsuarioService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Services/IUsuarioService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Services/PerfilUsuarioServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Services/UsuarioDelegadoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Services/UsuarioDelegadoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Services/UsuarioDeportistaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Services/UsuarioDeportistaServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Services/UsuarioServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Services/UsuarioServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Controller/SponsorRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Controller/SponsorRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Entity/Equipo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Entity/Equipo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Entity/Sponsor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Entity/Sponsor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/import.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/import.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/QuantaSoftSP/app/Controller/UsuarioDelegadoRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/QuantaSoftSP/app/Controller/UsuarioDelegadoRestController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/QuantaSoftSP/app/Controller/UsuarioDeportistaRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/QuantaSoftSP/app/Controller/UsuarioDeportistaRestController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/QuantaSoftSP/app/Controller/UsuarioRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/QuantaSoftSP/app/Controller/UsuarioRestController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/QuantaSoftSP/app/Dao/IPerfilUsuarioDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/QuantaSoftSP/app/Dao/IUsuarioDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/QuantaSoftSP/app/Dao/IUsuarioDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/QuantaSoftSP/app/Dao/IUsuarioDelegadoDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/QuantaSoftSP/app/Dao/IUsuarioDelegadoDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/QuantaSoftSP/app/Dao/IUsuarioDeportistaDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/QuantaSoftSP/app/Dao/IUsuarioDeportistaDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/QuantaSoftSP/app/Entity/PerfilesUsuario.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/QuantaSoftSP/app/Entity/Usuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/QuantaSoftSP/app/Entity/Usuario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/QuantaSoftSP/app/Entity/UsuarioDelegado.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/QuantaSoftSP/app/Entity/UsuarioDelegado.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/QuantaSoftSP/app/Entity/UsuarioDeportista.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/QuantaSoftSP/app/Entity/UsuarioDeportista.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/QuantaSoftSP/app/Services/IPerfilUsuarioService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/QuantaSoftSP/app/Services/IUsuarioDelegadoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/QuantaSoftSP/app/Services/IUsuarioDelegadoService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/QuantaSoftSP/app/Services/IUsuarioDeportistaService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/QuantaSoftSP/app/Services/IUsuarioDeportistaService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/QuantaSoftSP/app/Services/IUsuarioService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/QuantaSoftSP/app/Services/IUsuarioService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/QuantaSoftSP/app/Services/PerfilUsuarioServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/QuantaSoftSP/app/Services/UsuarioDelegadoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/QuantaSoftSP/app/Services/UsuarioDelegadoServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/QuantaSoftSP/app/Services/UsuarioDeportistaServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/QuantaSoftSP/app/Services/UsuarioDeportistaServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/QuantaSoftSP/app/Services/UsuarioServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/QuantaSoftSP/app/Services/UsuarioServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/QuantaSoftSP/app/Controller/SponsorRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/QuantaSoftSP/app/Controller/SponsorRestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/QuantaSoftSP/app/Entity/Sponsor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/QuantaSoftSP/app/Entity/Sponsor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/import.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/import.sql" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -109,21 +72,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Entity/ReclamoCli.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Entity/DetalleTicket.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Entity/Ticket.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Entity/Cliente.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Services/ISponsorService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Services/SponsorServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Dao/ISponsorDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Controller/SponsorRestController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Entity/PerfilesUsuarios.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Dao/IPErfilUsuarioDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Dao/IPerfilUsuarioDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Services/IPerfilUsuarioService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Services/PerfilUsuarioServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Controller/PerfilesRestController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Entity/Sponsor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Entity/Deporte.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Controller/DeporteRestController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Services/IDeporteService.java" />
@@ -157,9 +109,20 @@
         <option value="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Services/EquipoServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Controller/EquipoRestController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Entity/EquipoDeportista.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Entity/Equipo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Entity/DeportistaEquipo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Entity/Sponsor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Controller/SponsorRestController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Dao/IPublicidadDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Services/IPublicidadService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Entity/Publicidad.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Services/PublicidadServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/import.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Controller/PublicidadRestController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Entity/Equipo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Entity/FixDepParticipantes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Entity/FixtureDeportista.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Entity/FixEquipParticipante.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Entity/FixtureEquipo.java" />
       </list>
     </option>
   </component>
@@ -188,6 +151,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -220,15 +184,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="QuantaSoftSP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="QuantaSoftSP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="QuantaSoftSP" type="b2602c69:ProjectViewProjectNode" />
@@ -271,7 +226,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -373,7 +327,8 @@
       <workItem from="1558727446925" duration="10535000" />
       <workItem from="1558749396332" duration="1380000" />
       <workItem from="1559192677709" duration="697000" />
-      <workItem from="1559258562752" duration="33660000" />
+      <workItem from="1559258562752" duration="37108000" />
+      <workItem from="1559344677700" duration="8176000" />
     </task>
     <servers />
   </component>
@@ -404,7 +359,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112377000" />
+    <option name="totallyTimeSpent" value="124001000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -416,9 +371,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.85470086" visible="true" weight="0.23600605" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.85470086" visible="true" weight="0.21255673" />
       <window_info id="Structure" order="1" sideWeight="0.14529915" side_tool="true" weight="0.21860817" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -428,7 +383,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32991454" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2657005" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.9436393" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -496,121 +451,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Entity/Persona.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Entity/Ticket.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Entity/Cliente.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Services/SponsorServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="28" column="22" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Services/PerfilUsuarioServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.1.6.RELEASE/spring-data-commons-2.1.6.RELEASE-sources.jar!/org/springframework/data/repository/CrudRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1770">
-          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Dao/IDeporteDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="46" lean-forward="true" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Entity/Sponsor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#589#590#0" expanded="true" />
-            <element signature="e#614#615#0" expanded="true" />
-            <element signature="e#648#649#0" expanded="true" />
-            <element signature="e#676#677#0" expanded="true" />
-            <element signature="e#709#710#0" expanded="true" />
-            <element signature="e#738#739#0" expanded="true" />
-            <element signature="e#782#783#0" expanded="true" />
-            <element signature="e#818#819#0" expanded="true" />
-            <element signature="e#850#851#0" expanded="true" />
-            <element signature="e#878#879#0" expanded="true" />
-            <element signature="e#920#921#0" expanded="true" />
-            <element signature="e#954#955#0" expanded="true" />
-            <element signature="e#987#988#0" expanded="true" />
-            <element signature="e#1016#1017#0" expanded="true" />
-            <element signature="e#1060#1061#0" expanded="true" />
-            <element signature="e#1096#1097#0" expanded="true" />
-            <element signature="e#1133#1134#0" expanded="true" />
-            <element signature="e#1166#1167#0" expanded="true" />
-            <element signature="e#1218#1219#0" expanded="true" />
-            <element signature="e#1262#1263#0" expanded="true" />
-            <element signature="e#1299#1300#0" expanded="true" />
-            <element signature="e#1332#1333#0" expanded="true" />
-            <element signature="e#1384#1385#0" expanded="true" />
-            <element signature="e#1428#1429#0" expanded="true" />
-            <element signature="e#1464#1465#0" expanded="true" />
-            <element signature="e#1496#1497#0" expanded="true" />
-            <element signature="e#1546#1547#0" expanded="true" />
-            <element signature="e#1588#1589#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Controller/DeporteRestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1752">
-          <caret line="96" column="63" selection-start-line="96" selection-start-column="12" selection-end-line="96" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Controller/SponsorRestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-629">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Controller/PerfilesRestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Services/IPerfilUsuarioService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -618,16 +458,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Dao/IPerfilUsuarioDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="71" lean-forward="true" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Dao/IPerfilUsuarioDao.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/function/Function.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-761">
@@ -653,13 +484,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="18" column="30" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Dao/IUsuarioDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="53" />
         </state>
       </provider>
     </entry>
@@ -747,36 +571,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Entity/UsuarioJuez.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Entity/UsuarioDeportista.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="46" column="20" lean-forward="true" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Dao/ISponsorDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="68" selection-start-line="4" selection-start-column="68" selection-end-line="4" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Dao/IUsuarioJuezDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
@@ -818,26 +612,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Dao/IEquipoDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="16" column="39" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#0#12#1" expanded="true" />
-            <element signature="e#0#9#1" expanded="true" />
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Services/UsuarioServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="40" selection-start-line="40" selection-end-line="40" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Services/UsuarioJuezServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -855,44 +629,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Services/UsuarioDelegadoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="48" column="53" selection-start-line="48" selection-start-column="53" selection-end-line="48" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1224#1225#0" expanded="true" />
-            <element signature="e#1291#1292#0" expanded="true" />
-            <element signature="e#1392#1393#0" expanded="true" />
-            <element signature="e#1456#1457#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Services/IUsuarioJuezService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="9" selection-start-line="9" selection-end-line="14" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Services/IEquipoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Controller/UsuarioRestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="163" column="5" lean-forward="true" selection-start-line="34" selection-start-column="4" selection-end-line="163" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -909,40 +649,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Entity/Usuario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="86" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Controller/UsuarioJuezRestController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
           <caret line="157" column="34" lean-forward="true" selection-start-line="157" selection-start-column="34" selection-end-line="157" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Entity/Pais.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Controller/EquipoRestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="28" column="25" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -956,17 +666,214 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/import.sql">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Controller/EquipoRestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="26" column="104" selection-start-line="26" selection-start-column="104" selection-end-line="26" selection-end-column="104" />
+        <state relative-caret-position="113">
+          <caret line="28" column="25" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Entity/DeportistaEquipo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Entity/Sponsor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1264#1265#0" expanded="true" />
+            <element signature="e#1298#1299#0" expanded="true" />
+            <element signature="e#1326#1327#0" expanded="true" />
+            <element signature="e#1367#1368#0" expanded="true" />
+            <element signature="e#1404#1405#0" expanded="true" />
+            <element signature="e#1464#1465#0" expanded="true" />
+            <element signature="e#1516#1517#0" expanded="true" />
+            <element signature="e#1554#1555#0" expanded="true" />
+            <element signature="e#1588#1589#0" expanded="true" />
+            <element signature="e#1642#1643#0" expanded="true" />
+            <element signature="e#1688#1689#0" expanded="true" />
+            <element signature="e#1728#1729#0" expanded="true" />
+            <element signature="e#1764#1765#0" expanded="true" />
+            <element signature="e#1822#1823#0" expanded="true" />
+            <element signature="e#1872#1873#0" expanded="true" />
+            <element signature="e#1908#1909#0" expanded="true" />
+            <element signature="e#1940#1941#0" expanded="true" />
+            <element signature="e#1990#1991#0" expanded="true" />
+            <element signature="e#2032#2033#0" expanded="true" />
+            <element signature="e#2065#2066#0" expanded="true" />
+            <element signature="e#2094#2095#0" expanded="true" />
+            <element signature="e#2138#2139#0" expanded="true" />
+            <element signature="e#2174#2175#0" expanded="true" />
+            <element signature="e#2212#2213#0" expanded="true" />
+            <element signature="e#2246#2247#0" expanded="true" />
+            <element signature="e#2300#2301#0" expanded="true" />
+            <element signature="e#2346#2347#0" expanded="true" />
+            <element signature="e#2382#2383#0" expanded="true" />
+            <element signature="e#2414#2415#0" expanded="true" />
+            <element signature="e#2464#2465#0" expanded="true" />
+            <element signature="e#2506#2507#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Controller/SponsorRestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="91" column="63" lean-forward="true" selection-start-line="91" selection-start-column="63" selection-end-line="91" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Entity/Pais.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Dao/IPublicidadDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="11" column="49" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#0#9#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Services/IPublicidadService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Services/IEquipoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="10" selection-start-line="10" selection-end-line="16" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Dao/IUsuarioDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="11" selection-start-line="11" selection-end-line="12" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#0#9#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Dao/ISponsorDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
-          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="30" />
+          <caret line="4" column="68" selection-start-line="4" selection-start-column="68" selection-end-line="4" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Dao/IEquipoDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="16" column="39" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Services/PublicidadServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Controller/UsuarioRestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="29" selection-start-line="29" selection-end-line="31" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Entity/Publicidad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1027#1028#0" expanded="true" />
+            <element signature="e#1061#1062#0" expanded="true" />
+            <element signature="e#1089#1090#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Services/SponsorServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Services/UsuarioDelegadoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="48" column="53" selection-start-line="48" selection-start-column="53" selection-end-line="48" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1224#1225#0" expanded="true" />
+            <element signature="e#1291#1292#0" expanded="true" />
+            <element signature="e#1392#1393#0" expanded="true" />
+            <element signature="e#1456#1457#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Services/UsuarioServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="40" selection-start-line="40" selection-end-line="40" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Controller/PublicidadRestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="30" column="28" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Entity/UsuarioDeportista.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1104">
+          <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -975,14 +882,157 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Entity/Equipo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="50" column="9" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="65" />
+        <state relative-caret-position="216">
+          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="18" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1770#1771#0" expanded="true" />
-            <element signature="e#1827#1828#0" expanded="true" />
-            <element signature="e#2771#2772#0" expanded="true" />
-            <element signature="e#2810#2811#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Entity/FixEquipParticipante.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#595#596#0" expanded="true" />
+            <element signature="e#629#630#0" expanded="true" />
+            <element signature="e#657#658#0" expanded="true" />
+            <element signature="e#697#698#0" expanded="true" />
+            <element signature="e#733#734#0" expanded="true" />
+            <element signature="e#791#792#0" expanded="true" />
+            <element signature="e#841#842#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Entity/FixtureDeportista.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="43" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1451#1452#0" expanded="true" />
+            <element signature="e#1506#1507#0" expanded="true" />
+            <element signature="e#1614#1615#0" expanded="true" />
+            <element signature="e#1639#1640#0" expanded="true" />
+            <element signature="e#1673#1674#0" expanded="true" />
+            <element signature="e#1701#1702#0" expanded="true" />
+            <element signature="e#1737#1738#0" expanded="true" />
+            <element signature="e#1771#1772#0" expanded="true" />
+            <element signature="e#1823#1824#0" expanded="true" />
+            <element signature="e#1869#1870#0" expanded="true" />
+            <element signature="e#1908#1909#0" expanded="true" />
+            <element signature="e#1943#1944#0" expanded="true" />
+            <element signature="e#1999#2000#0" expanded="true" />
+            <element signature="e#2047#2048#0" expanded="true" />
+            <element signature="e#2085#2086#0" expanded="true" />
+            <element signature="e#2119#2120#0" expanded="true" />
+            <element signature="e#2173#2174#0" expanded="true" />
+            <element signature="e#2214#2215#0" expanded="true" />
+            <element signature="e#2247#2248#0" expanded="true" />
+            <element signature="e#2278#2279#0" expanded="true" />
+            <element signature="e#2324#2325#0" expanded="true" />
+            <element signature="e#2364#2365#0" expanded="true" />
+            <element signature="e#2411#2412#0" expanded="true" />
+            <element signature="e#2449#2450#0" expanded="true" />
+            <element signature="e#2516#2517#0" expanded="true" />
+            <element signature="e#2570#2571#0" expanded="true" />
+            <element signature="e#2636#2637#0" expanded="true" />
+            <element signature="e#2679#2680#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Entity/FixtureEquipo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="49" column="25" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1565#1566#0" expanded="true" />
+            <element signature="e#1614#1615#0" expanded="true" />
+            <element signature="e#1667#1668#0" expanded="true" />
+            <element signature="e#1701#1702#0" expanded="true" />
+            <element signature="e#1729#1730#0" expanded="true" />
+            <element signature="e#1765#1766#0" expanded="true" />
+            <element signature="e#1799#1800#0" expanded="true" />
+            <element signature="e#1851#1852#0" expanded="true" />
+            <element signature="e#1897#1898#0" expanded="true" />
+            <element signature="e#1936#1937#0" expanded="true" />
+            <element signature="e#1971#1972#0" expanded="true" />
+            <element signature="e#2027#2028#0" expanded="true" />
+            <element signature="e#2075#2076#0" expanded="true" />
+            <element signature="e#2113#2114#0" expanded="true" />
+            <element signature="e#2147#2148#0" expanded="true" />
+            <element signature="e#2201#2202#0" expanded="true" />
+            <element signature="e#2242#2243#0" expanded="true" />
+            <element signature="e#2275#2276#0" expanded="true" />
+            <element signature="e#2306#2307#0" expanded="true" />
+            <element signature="e#2352#2353#0" expanded="true" />
+            <element signature="e#2392#2393#0" expanded="true" />
+            <element signature="e#2439#2440#0" expanded="true" />
+            <element signature="e#2477#2478#0" expanded="true" />
+            <element signature="e#2544#2545#0" expanded="true" />
+            <element signature="e#2598#2599#0" expanded="true" />
+            <element signature="e#2659#2660#0" expanded="true" />
+            <element signature="e#2696#2697#0" expanded="true" />
+            <element signature="e#2776#2777#0" expanded="true" />
+            <element signature="e#2828#2829#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Entity/DeportistaEquipo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/import.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="72" lean-forward="true" selection-end-line="35" selection-end-column="189" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Entity/FixDepParticipantes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
+            <element signature="e#612#613#0" expanded="true" />
+            <element signature="e#646#647#0" expanded="true" />
+            <element signature="e#674#675#0" expanded="true" />
+            <element signature="e#738#739#0" expanded="true" />
+            <element signature="e#787#788#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Entity/Usuario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="82" selection-start-line="82" selection-end-line="86" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/QuantaSoftSP/app/Entity/UsuarioJuez.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="20" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

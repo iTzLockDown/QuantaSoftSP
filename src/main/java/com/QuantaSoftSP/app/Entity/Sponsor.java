@@ -1,6 +1,8 @@
 package com.QuantaSoftSP.app.Entity;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.Size;
 import java.io.Serializable;
 @Entity
 @Table(name = "xvi_finsponsor")
@@ -10,14 +12,34 @@ public class Sponsor implements Serializable {
    @Id
    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
-   @Column(nullable = false)
-    private String nombre;
-   @Column(nullable = false, unique = true)
-    private String marca;
-    @Column(unique =true)
+
+   @NotEmpty(message = "No puede ir vacio.")
+   @Size(min = 4, max = 255)
+   @Column(nullable = false, length = 255)
+   private String nombreCompleto;
+
+
+    @NotEmpty(message = "No puede ir vacio.")
+    @Size(min = 4, max = 255)
+    @Column(nullable = false, length = 255)
+    private String nombreCorto;
+
+    @NotEmpty(message = "No puede ir vacio.")
+    @Size(min = 4, max = 255)
+    @Column(nullable = false, length = 255, unique = true)
+    private String nombreMostrar;
+
+
+    @Size(min = 4, max = 255)
+    @Column(nullable = false, length = 255)
+    private String filosofia;
+
+    @Size(max = 100)
+    @Column( nullable = false, unique =true, length = 100)
     private String pagWeb;
-    private String vidSponsor;
-    private String imgSponsor;
+
+    private String logoSponsor;
+
     @Column(nullable = false, length = 1)
     private String estActivo;
 
@@ -29,20 +51,36 @@ public class Sponsor implements Serializable {
         this.id = id;
     }
 
-    public String getNombre() {
-        return nombre;
+    public String getNombreCompleto() {
+        return nombreCompleto;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+    public void setNombreCompleto(String nombreCompleto) {
+        this.nombreCompleto = nombreCompleto;
     }
 
-    public String getMarca() {
-        return marca;
+    public String getNombreCorto() {
+        return nombreCorto;
     }
 
-    public void setMarca(String marca) {
-        this.marca = marca;
+    public void setNombreCorto(String nombreCorto) {
+        this.nombreCorto = nombreCorto;
+    }
+
+    public String getNombreMostrar() {
+        return nombreMostrar;
+    }
+
+    public void setNombreMostrar(String nombreMostrar) {
+        this.nombreMostrar = nombreMostrar;
+    }
+
+    public String getFilosofia() {
+        return filosofia;
+    }
+
+    public void setFilosofia(String filosofia) {
+        this.filosofia = filosofia;
     }
 
     public String getPagWeb() {
@@ -53,20 +91,12 @@ public class Sponsor implements Serializable {
         this.pagWeb = pagWeb;
     }
 
-    public String getVidSponsor() {
-        return vidSponsor;
+    public String getLogoSponsor() {
+        return logoSponsor;
     }
 
-    public void setVidSponsor(String vidSponsor) {
-        this.vidSponsor = vidSponsor;
-    }
-
-    public String getImgSponsor() {
-        return imgSponsor;
-    }
-
-    public void setImgSponsor(String imgSponsor) {
-        this.imgSponsor = imgSponsor;
+    public void setLogoSponsor(String logoSponsor) {
+        this.logoSponsor = logoSponsor;
     }
 
     public String getEstActivo() {

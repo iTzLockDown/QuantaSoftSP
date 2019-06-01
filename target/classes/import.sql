@@ -25,3 +25,12 @@ INSERT INTO `xvi_finequipo_deportistas` (`id`, `depequipoud_id`, `equipode_id`) 
 INSERT INTO `xvi_finequipo_deportistas` (`id`, `depequipoud_id`, `equipode_id`) VALUES (NULL, '2', '2');
 INSERT INTO `xvi_finequipo_deportistas` (`id`, `depequipoud_id`, `equipode_id`) VALUES (NULL, '3', '2');
 INSERT INTO `xvi_finequipo_deportistas` (`id`, `depequipoud_id`, `equipode_id`) VALUES (NULL, '4', '1');
+
+INSERT INTO `xvi_finsponsor` (`id`, `est_activo`, `filosofia`, `logo_sponsor`, `nombre_completo`, `nombre_corto`, `nombre_mostrar`, `pag_web`) VALUES (NULL, '1', '\"SOMOS LOS MEJORES\"', 'IMAGEN1 LOGO .PNG', 'COCA COLA COMPANY SAC', 'COCA COLA', 'COCA COLA ES PANAMERICANOS', 'WWW.COCACOLA.COM');
+INSERT INTO `xvi_finsponsor` (`id`, `est_activo`, `filosofia`, `logo_sponsor`, `nombre_completo`, `nombre_corto`, `nombre_mostrar`, `pag_web`) VALUES (NULL, '1', '\"SOMOS LOS MEJORES\"', 'IMAGEN2 LOGO .PNG', 'INCA COLA COMPANY SAC', 'INKA COLA', 'INKA COLA ES PANAMERICANOS', 'WWW.CINKACOLA.COM');
+INSERT INTO `xvi_finsponsor` (`id`, `est_activo`, `filosofia`, `logo_sponsor`, `nombre_completo`, `nombre_corto`, `nombre_mostrar`, `pag_web`) VALUES (NULL, '1', '\"SOMOS LOS MEJORES\"', 'IMAGEN3 LOGO .PNG', 'PEPSI COLA COMPANY SAC', 'PEPSI', 'PESIS ES PANAMERICANOS', 'WWW.PEPSI.COM');
+INSERT INTO `xvi_finsponsor` (`id`, `est_activo`, `filosofia`, `logo_sponsor`, `nombre_completo`, `nombre_corto`, `nombre_mostrar`, `pag_web`) VALUES (NULL, '1', '\"SOMOS LOS MEJORES\"', 'IMAGEN4 LOGO .PNG', 'SVEN COLA COMPANY SAC', '7UP', '7UP COLA ES PANAMERICANOS', 'WWW.7UP.COM');
+
+INSERT INTO `xvi_finpublicidads` (`id`, `fecha_reg_publicidad`, `img_publicidad`, `video_publicidad`, `publicidads_id`) VALUES (NULL, '2019-05-06', 'imagen1.jpeg', 'www.youtube1.com', '1');
+INSERT INTO `xvi_finpublicidads` (`id`, `fecha_reg_publicidad`, `img_publicidad`, `video_publicidad`, `publicidads_id`) VALUES (NULL, '2019-05-06', 'imagen2.jpeg', 'www.youtube2.com', '2');
+INSERT INTO `xvi_finpublicidads` (`id`, `fecha_reg_publicidad`, `img_publicidad`, `video_publicidad`, `publicidads_id`) VALUES (NULL, '2019-05-06', 'imagen3.jpeg', 'www.youtube3.com', '3');

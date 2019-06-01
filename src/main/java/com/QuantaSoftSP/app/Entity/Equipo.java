@@ -27,6 +27,7 @@ public class Equipo implements Serializable {
     @Temporal(TemporalType.DATE)
     private Date dDechaRegistro;
 
+
     @NotNull(message = "El deporte no puede estar vacio.")
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "equipodep_id")

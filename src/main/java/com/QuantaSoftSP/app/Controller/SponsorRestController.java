@@ -82,11 +82,13 @@ public class SponsorRestController {
             return new ResponseEntity<Map<String, Object>>(response, HttpStatus.NOT_FOUND);
         }
         try {
-            sponsorActual.setNombre(sponsor.getNombre());
-            sponsorActual.setMarca(sponsor.getMarca());
+            sponsorActual.setNombreCompleto(sponsor.getNombreCompleto());
+            sponsorActual.setNombreCorto(sponsor.getNombreCorto());
             sponsorActual.setPagWeb(sponsor.getPagWeb());
-            sponsorActual.setVidSponsor(sponsor.getVidSponsor());
-            sponsorActual.setImgSponsor(sponsor.getImgSponsor());
+            sponsorActual.setNombreMostrar(sponsor.getNombreMostrar());
+            sponsorActual.setFilosofia(sponsor.getFilosofia());
+            sponsorActual.setPagWeb(sponsor.getPagWeb());
+            sponsorActual.setLogoSponsor(sponsor.getLogoSponsor());
             sponsorActual.setEstActivo(sponsor.getEstActivo());
             sponsorUpdate=	sponsorService.save(sponsorActual);
         }catch (DataAccessException e)
