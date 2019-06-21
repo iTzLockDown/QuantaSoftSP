@@ -4,6 +4,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 import java.io.Serializable;
 import java.util.Date;
+import java.util.List;
 
 import javax.persistence.*;
 import javax.validation.constraints.Email;
@@ -61,14 +62,12 @@ public class Usuario implements Serializable{
 	private String email;
 
 	@NotEmpty
-	@Size(min = 8, max = 25, message = "Tiene que ser mayor de 8 caracteres")
-	@Column(nullable = false, length = 25)
+	@Size(min = 8, max = 60, message = "Tiene que ser mayor de 8 caracteres")
+	@Column(nullable = false, length = 60)
 	private String password;
 
 	@NotEmpty
-	@Size(max = 1)
-	@Column(nullable = false, length = 1)
-	private String estActivo;
+	private Boolean estActivo;
 
 	@NotNull(message = "No puede estar vacio")
 	@Column(nullable = false)
@@ -85,6 +84,11 @@ public class Usuario implements Serializable{
 	@JoinColumn(name = "pais_id")
 	@JsonIgnoreProperties({"hibernateLazyInitializer","handler"})
 	private Pais paisUser;
+
+	@ManyToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+	@JoinTable(name = "xvi_finuser_authorities", joinColumns = @JoinColumn(name = "user_id"), inverseJoinColumns =@JoinColumn(name = "role_id") )
+	private List<Role> roles;
+
 
 	public long getId() {
 		return id;
@@ -166,11 +170,11 @@ public class Usuario implements Serializable{
 		this.password = password;
 	}
 
-	public String getEstActivo() {
+	public Boolean getEstActivo() {
 		return estActivo;
 	}
 
-	public void setEstActivo(String estActivo) {
+	public void setEstActivo(Boolean estActivo) {
 		this.estActivo = estActivo;
 	}
 
@@ -198,4 +202,11 @@ public class Usuario implements Serializable{
 		this.paisUser = paisUser;
 	}
 
+	public List<Role> getRoles() {
+		return roles;
+	}
+
+	public void setRoles(List<Role> roles) {
+		this.roles = roles;
+	}
 }
